@@ -2,51 +2,20 @@ import React from "react";
 import './index.css';
 
 function App() {
-  const showComponents = () => {
-    const menu = document.querySelector(".menu");
-    menu.classList.toggle("hidden")
-  }
-
   return (
     <div className="">
       <nav className="bg-gray-100 shadow-lg top-0 z-50 w-full fixed">
         <div className="max-w-7xl">
             <div className="flex justify-between text-gray-700">
                 <div className="flex items-center py-2 px-0 space-x-7">
-                    <a href="#" className="s p:-ml-6 md:-ml-0">
-                      <i className="fas fa-wave-square text-blue-400 ml-6 mr-1 -mb-2"></i>
+                    <a href="#" className="md:ml-10 flex">
+                      <img className="w-6 mr-2" src="/favicon-32x32.png" alt="" srcset="" />
                       <span className="font-semibold text-lg">Tailwinder</span>
                     </a>
                 </div>
                 <div className="flex items-center space-x-1">
                     <div className="relative inline-block text-left">
-                        <div>
-                            <button type="button" className="menu-button inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100" aria-expanded="true" aria-haspopup="true" onClick={showComponents}>
-                                Components
-                                <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    
-                        {/* <!--
-                        Dropdown menu, show/hide based on menu state.
-                        Entering: "transition ease-out duration-100"
-                            From: "transform opacity-0 scale-95"
-                            To: "transform opacity-100 scale-100"
-                        Leaving: "transition ease-in duration-75"
-                            From: "transform opacity-100 scale-100"
-                            To: "transform opacity-0 scale-95"
-                        --> */}
-                        <div className="hidden menu origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                            <div className="py-1" role="none">
-                                {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
-                                <a href="/" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Navbar</a>
-                                <a href="/" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Cards</a>
-                                <a href="/" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Headers</a>
-                                <a href="/" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Footer</a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="flex items-center">
