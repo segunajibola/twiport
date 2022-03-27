@@ -24,6 +24,11 @@ function App() {
             </div>
         </div>
       </nav>
+      <div>
+        <h1 className="text-blue-500">Build Your Twitter Portfolio</h1>
+        <img className="w-96" src="https://blush.design/api/download?shareUri=xmeDB2yJZeYzHPIC&c=Hair_0%7Ee7b460-0.4%7E372310_Skin_0%7Ef4d4b8-0.4%7Ec3986a&w=800&h=800&fm=png" alt="" srcset="" />
+      </div>
+     
     </div>
   );
 }
