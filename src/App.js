@@ -19,12 +19,13 @@ function App() {
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <a href="https://github.com/segunajibola/Tailwinder" className="-mr-2">Github <i className="fab fa-github text-xl text-black pr-6"></i></a>
+                    <a href="https://github.com/segunajibola/Twiport" className="-mr-2">Github <i className="fab fa-github text-xl text-black pr-6"></i></a>
                 </div>
             </div>
         </div>
       </nav>
-    
+
+      {/* Start of header */}
       <div className='grid bg-gray-100 mt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <div className='max-w-xl'>
@@ -42,7 +43,7 @@ function App() {
             <div className='mt-4 space-x-1 sm:mt-6'>
               <a
                 href='/'
-                className='focus:outline-none inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-indigo-600 dark:bg-indigo-600  sm:text-base '
+                className='focus:outline-none inline-block transform rounded-lg bg-blue-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-blue-600 dark:bg-blue-600  sm:text-base'
               >
                 Start building
               </a>
@@ -64,7 +65,10 @@ function App() {
           />
         </div>
       </div>
-     
+      {/* End of header */}
+      <div>
+        
+      </div>
     </div>
   );
 }
