@@ -24,10 +24,7 @@ function App() {
             </div>
         </div>
       </nav>
-      {/* <div className="mt-16 flex">
-        <h1 className="text-blue-500 text-8xl w-96">Build Your Twitter Portfolio</h1>
-        <img className="w-96" src="https://blush.design/api/download?shareUri=xmeDB2yJZeYzHPIC&c=Hair_0%7Ee7b460-0.4%7E372310_Skin_0%7Ef4d4b8-0.4%7Ec3986a&w=800&h=800&fm=png" alt="" srcset="" />
-      </div> */}
+    
       <div className='grid bg-gray-100 mt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <div className='max-w-xl'>
@@ -35,8 +32,7 @@ function App() {
             Build Your Twitter Portfolio
             </h1>
             <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
-              Buscation helps you tour beautiful locations so you can enjoy
-              nature.
+              All your important moments in Twitter on one page.
             </p>
             <img
               src='https://blush.design/api/download?shareUri=xmeDB2yJZeYzHPIC&c=Hair_0%7Ee7b460-0.4%7E372310_Skin_0%7Ef4d4b8-0.4%7Ec3986a&w=800&h=800&fm=png'
@@ -48,13 +44,13 @@ function App() {
                 href='/'
                 className='focus:outline-none inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-indigo-600 dark:bg-indigo-600  sm:text-base '
               >
-                Join next tour
+                Github
               </a>
               <a
                 href='/'
                 className='focus:outline-none inline-block rounded-lg bg-gray-300 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:bg-gray-200 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base'
               >
-                Know more
+                About
               </a>
             </div>
           </div>
