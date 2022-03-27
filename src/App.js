@@ -44,11 +44,11 @@ function App() {
                 href='/'
                 className='focus:outline-none inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-indigo-600 dark:bg-indigo-600  sm:text-base '
               >
-                Github
+                Start building
               </a>
               <a
                 href='/'
-                className='focus:outline-none inline-block rounded-lg bg-gray-300 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:bg-gray-200 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base'
+                className='focus:outline-none inline-block rounded-lg bg-gray-200 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-blue-500 hover:text-white hover:bg-gray-400 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base'
               >
                 About
               </a>
