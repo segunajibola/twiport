@@ -1,25 +1,28 @@
 import React from "react";
 import './index.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+
 
 function App() {
   return (
     <div className="">
       <nav className="bg-gray-100 shadow-lg top-0 z-50 w-full fixed">
-        <div className="max-w-7xl">
+        <div className="max-w-full">
             <div className="flex justify-between text-gray-700">
                 <div className="flex items-center py-2 px-0 space-x-7">
                     <a href="#" className="md:ml-10 flex">
-                      <img className="w-6 mr-2" src="/favicon-32x32.png" alt="" srcset="" />
+                      <img className="w-6 mr-2" src="/favicon-32x32.png" alt=""/>
                       <span className="font-semibold text-lg">Twiport</span>
                     </a>
                 </div>
-                <div className="flex items-center space-x-1">
+                {/* <div className="flex items-center space-x-1">
                     <div className="relative inline-block text-left">
                         
                     </div>
-                </div>
-                <div className="flex items-center">
-                    <a href="https://github.com/segunajibola/Twiport" className="-mr-2">Github <i className="fab fa-github text-xl text-black pr-6"></i></a>
+                </div> */}
+                <div className="flex">
+                    <a href="https://github.com/segunajibola/twiport" className="-mr-2 items-end">Github <i className="fab fa-github text-xl text-black pr-6"></i></a>
                 </div>
             </div>
         </div>
@@ -31,14 +34,15 @@ function App() {
           <div className='max-w-xl'>
             <h1 className='mt-2 text-2xl font-bold text-blue-500 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-7xl'>
             Build Your Twitter Portfolio
+            <FontAwesomeIcon icon={faTwitter} className='ml-2'/>
             </h1>
             <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
               All your important moments in Twitter on one page.
             </p>
             <img
               src='https://blush.design/api/download?shareUri=xmeDB2yJZeYzHPIC&c=Hair_0%7Ee7b460-0.4%7E372310_Skin_0%7Ef4d4b8-0.4%7Ec3986a&w=800&h=800&fm=png'
-              alt='People going in the bus'
-              className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
+              alt='twitter portfolio'
+              className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 lg:hidden'
             />
             <div className='mt-4 space-x-1 sm:mt-6'>
               <a
@@ -60,15 +64,19 @@ function App() {
         <div className='relative m-3 hidden lg:block 2xl:col-span-3'>
           <img
             src='https://blush.design/api/download?shareUri=xmeDB2yJZeYzHPIC&c=Hair_0%7Ee7b460-0.4%7E372310_Skin_0%7Ef4d4b8-0.4%7Ec3986a&w=800&h=800&fm=png'
-            alt='People going in the bus'
-            className='absolute inset-0 h-full w-full rounded object-cover object-center'
+            alt=''
+            className='absolute inset-0 h-full w-full rounded'
           />
         </div>
       </div>
       {/* End of header */}
-      <div>
-        
+
+      <div className='bg-grey-300 '>
+        <div>
+
+        </div>
       </div>
+
     </div>
   );
 }
